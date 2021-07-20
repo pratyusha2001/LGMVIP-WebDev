@@ -1,0 +1,87 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:Lucida Sans Unicode;
+  }
+
+/*NAVBAR*/
+.nav{
+    background-color: black;
+    z-index: -1;
+}
+.logo-name{
+    color: white;
+    margin-bottom: -5px;
+    margin-left: 2px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bttn{
+    margin-top: -47px;
+    display: flex;
+    float: right;
+    background-color: black;
+    color: white;
+    border: 2px solid greenyellow;
+    outline: none;
+}
+.bttn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+    outline: none;
+    box-shadow: none;
+}
+.bttn:focus{
+    background-color: white;
+    color: gray;
+    outline: 0 !important;
+    border: none;
+    box-shadow: none;
+}
+
+/*MESSAGE,LOADING*/
+.msg{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 90px;       
+    color: white;
+}
+
+/*LOADING*/
+.spinner{
+    margin: 0 auto;
+    display: flex;
+    float: center;
+    color: #aaf6fc;
+   }
+
+/*CARDS*/
+.card{
+    border:none;
+    margin-bottom: 8%;
+    padding-top: 5%;
+    background:linear-gradient(315deg, #13547a  0%,#80d0c7 74%);
+    cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+    .card {
+      height: 300px;
+    }
+  }
+.card:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+.card-img{
+    border-radius: 50%;
+    width: 50%;
+    margin:0 auto;
+}
+svg{
+    margin-right: 4px;
+}
